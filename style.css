@@ -10,6 +10,16 @@ Version: 1.0
 
 /* Parent stylesheet should be loaded from functions.php not using @import */
 
+/* Color Palette */
+/* :root {
+  --blue: #03658C;
+  --hover: #348ABF;
+  --pink: #F5B4AC;
+  --gray: #E3E3E3;
+  --dark: #929292;
+  --black: #0C0505;
+} */
+
 .home-top {
   padding: 1rem 0 .5rem;
 }
@@ -19,12 +29,11 @@ Version: 1.0
 }
 
 .home-top h1 {
-  text-transform: uppercase;
   text-align: center;
 }
 
 #site-logo a.site-logo-text {
-  font-weight: 700;
+  font-family: "Playfair Display";
 }
 
 .home-nav {
@@ -33,11 +42,11 @@ Version: 1.0
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .oceanwp-text {
@@ -57,6 +66,10 @@ Version: 1.0
   padding: 78vh 2rem 0;
 }
 
+form label {
+  color: #929292;
+}
+
 /* Calendar edits */
 
 .ai1ec-title-buttons .ai1ec-btn-group {
@@ -73,8 +86,8 @@ Version: 1.0
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
 
   .home-nav {

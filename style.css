@@ -70,6 +70,38 @@ form label {
   color: #929292;
 }
 
+/* Footer */
+
+#footer-widgets .col {
+  margin-bottom: 0;
+}
+
+.custom-html-widget {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.foot-icon {
+  margin: 0 auto;
+  max-width: 110px;
+}
+
+.copy {
+  text-align: center;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
 /* Calendar edits */
 
 .ai1ec-title-buttons .ai1ec-btn-group {

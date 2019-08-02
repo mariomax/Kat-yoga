@@ -66,6 +66,15 @@ Version: 1.0
   padding: 78vh 2rem 0;
 }
 
+.spiral {
+  background-image: url(https://kathrynwelshyoga.com/wp-content/uploads/2019/08/3-spiral.png);
+  background-repeat: space;
+  background-size: 80px;
+  height: 80px;
+  width: auto;
+  opacity: .6;
+}
+
 form label {
   color: #929292;
 }
@@ -132,6 +141,11 @@ form label {
 
   .home-img {
     margin-bottom: 2rem;
+  }
+
+  .spiral {
+    background-size: 100px;
+    height: 100px;
   }
 }
 

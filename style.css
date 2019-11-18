@@ -36,6 +36,10 @@ Version: 1.0
   font-family: "Playfair Display";
 }
 
+#top-bar-content {
+  padding-bottom: 10px;
+}
+
 .home-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -91,11 +95,11 @@ form label {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .foot-icon {
@@ -120,6 +124,10 @@ form label {
 @media (min-width: 768px) {
   .topbar-content {
     font-size: 1.25em;
+  }
+
+  #top-bar-content {
+    padding-bottom: 0px;
   }
 
   .home-top {
